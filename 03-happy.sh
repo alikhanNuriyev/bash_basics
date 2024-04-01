@@ -14,9 +14,9 @@ fi
 
 # exercise: write a script that prints whether today is
 # the weekend or not
-current_day=$(date +%u)
+dayOfWeek=$(date +%u)
 
-if [ "$current_day" -eq 6 ] || [ "$current_day" -eq 7 ]; then
+if [ "$dayOfWeek" -eq 6 ] || [ "$dayOfWeek" -eq 7 ]; then
     echo "Today is the weekend!"
 else
     echo "Today is not the weekend."
